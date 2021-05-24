@@ -9,6 +9,12 @@
 #chessboard .tile {
    width: 100px;
    height: 100px;
+   display: grid;
+   place-content: center;
+}
+
+#chessboard .chess-piece-image {
+   width: 80px;
 }
 
 #chessboard .black-tile {
