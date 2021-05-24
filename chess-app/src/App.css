@@ -1,0 +1,7 @@
+#app {
+   display: grid;
+   grid-template-columns: repeat(8, 100px);
+   place-content: center;
+   height: 100vh;
+   background-color: #312E2B
+}
